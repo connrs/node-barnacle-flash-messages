@@ -1,0 +1,29 @@
+{
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "name": "barnacle-flash-messages",
+  "description": "",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/connrs/barnacle-flash-messages.git"
+  },
+  "main": "lib/barnacle-flash-messages.js",
+  "scripts": {
+    "test": "node_modules/tape/bin/tape test/*.js"
+  },
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    }
+  ],
+  "author": "connrs",
+  "dependencies": {
+    "barnacle-mode": "^0.0.2"
+  },
+  "devDependencies": {
+    "tape": "^2.5.0"
+  }
+}
